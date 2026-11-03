@@ -25,7 +25,7 @@ body {
 }
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: auto;
   background-color: var(--transparant);
 }
 .hero h1,
@@ -81,7 +81,7 @@ body {
   min-height: 100vh;
   margin-top: -6rem;
   padding-top: 15rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
 }
 
 .home h2,
