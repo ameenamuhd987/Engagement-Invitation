@@ -25,7 +25,7 @@ body {
 }
 .hero {
   position: relative;
-  min-height: auto;
+  min-height: 100vh;
   background-color: var(--transparant);
 }
 .hero h1,
