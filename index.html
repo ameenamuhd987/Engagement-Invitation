@@ -64,7 +64,52 @@
         </div>
           </div>
 
-   
+    <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" 
+          action="https://script.google.com/macros/s/AKfycbzonA-VRMB8dyMizhVNdsWeHFaeTUrcex8kHIL4iKZfs0Kuymo-rhFMn3ORmPjxIFOQ/exec" id="my-form">
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" name="nama">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="jumlah" class="form-label">Jumlah keluarga hadir</label>
+                <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="status" class="form-label">Konfirmasi</label>
+                <select name="status" id="status" class="form-select">
+                  <option selected>Pilih salah satu</option>
+                  <option value="Hadir">Hadir</option>
+                  <option value="Tidak Hadir">Tidak Hadir</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-12" style="margin-top: 30px">
+              <button class="btn btn-primary">Kirim</button>
+            </div>
+          </form>
+
+          <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+              <!-- code bagian coment tamu undangan menggunakan disqus -->
+              <div id="disqus_thread"></div>
+              <script>
+                  /**
+                  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                  /*
+                  var disqus_config = function () {
+                  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  };
+                  */
                   (function() { // DON'T EDIT BELOW THIS LINE
                   var d = document, s = d.createElement('script');
                   s.src = 'https://mywedding1-1.disqus.com/embed.js';
