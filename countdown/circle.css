@@ -44,7 +44,7 @@
 
 .simply-countdown-circle .simply-amount {
   display: block;
-  font-size: 2.75rem;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1;
   background: linear-gradient(to right, var(--sc-circle-primary), var(--sc-circle-secondary));
@@ -54,7 +54,7 @@
 }
 
 .simply-countdown-circle .simply-word {
-  font-size: 1.7rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   opacity: 0.8;
